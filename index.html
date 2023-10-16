@@ -29,34 +29,6 @@
     <button onclick="appendToDisplay('/')">/</button>
 </body>
 </html>
-Crie um arquivo JavaScript chamado "calculadora.js" e insira o seguinte código:
-javascript
-Copy code
-let displayValue = "";
-
-function appendToDisplay(value) {
-    displayValue += value;
-    document.getElementById("display").value = displayValue;
-}
-
-function clearDisplay() {
-    displayValue = "";
-    document.getElementById("display").value = displayValue;
-}
-
-function calculateResult() {
-    try {
-        displayValue = eval(displayValue);
-        document.getElementById("display").value = displayValue;
-    } catch (error) {
-        document.getElementById("display").value = "Erro";
-    }
-}
-Abra o arquivo "calculadora.html" em um navegador da web para testar a calculadora.
-Esta atividade introduzirá conceitos de manipulação de eventos, funções JavaScript e avaliação de expressões. Os alunos podem expandir essa calculadora simples adicionando mais recursos, como operações matemáticas adicionais, tratamento de erros e formatação visual.
-
-Certifique-se de incentivar os alunos a experimentar e modificar o código para entender melhor os conceitos de programação em JavaScript.
-
 
 
 
